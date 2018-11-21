@@ -1,8 +1,22 @@
 .post-box {
   margin-bottom: 2rem;
+<<<<<<< HEAD
    
   &-link {
     color: $text-color;
+=======
+  
+  .cover1 {background-image: url('../images/latest-blog/1.jpeg');}
+  .cover2 {background-image: url('../images/latest-blog/2.jpeg');}
+  .cover3 {background-image: url('../images/latest-blog/3.jpeg');}
+  [class^="cover"] {
+    padding: 70% 25px 0 25px;
+    background: {
+      color: #f4f5f7;
+      size: cover;
+      position: center;
+    }
+>>>>>>> 3c44388... New furniture and latest blog imgs added
 
     &:hover {
       text-decoration: none;
