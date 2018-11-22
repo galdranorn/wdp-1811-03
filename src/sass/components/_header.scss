@@ -294,6 +294,7 @@ header {
           }
         }
         
+<<<<<<< HEAD
         .search-field {
           display: flex;
           align-items: center;
@@ -302,6 +303,31 @@ header {
           input {
             border: 0;
             padding-left: 10px;
+=======
+        .category-first,
+        .category-second {
+          margin: 0;
+          padding: 0;
+          border: 1px solid #292929;
+          background: #ffffff;
+          width: calc(100% + 2px);
+          position: absolute;
+          list-style: none;
+          transition: 300ms;
+          transition-delay: 300ms;
+        }
+
+        .category-first {
+          z-index: 99;
+          left: -1px;
+          top: 43px;
+          transform: scaleY(0);
+          transform-origin: top;
+          border-top: none;
+
+          
+          .category-element {
+>>>>>>> 86d27f5... Add classes to HTML elements
             font-size: 14px;
             width: 100%;
             outline: none;
