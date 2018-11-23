@@ -144,6 +144,14 @@
             opacity: 0;
             @extend %transitionsAll;
         }
+<<<<<<< HEAD
+=======
+        &.active {
+          @extend .fas;
+          color: $primary;
+        }
+      }
+>>>>>>> 58a6094... Create loop for classes array and start work on event listener for section
     }
 
     .content {
