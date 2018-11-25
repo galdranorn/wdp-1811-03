@@ -197,11 +197,21 @@ header {
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
         %category-hover {
           cursor: pointer;
           background: $primary;
           color: #ffffff;
 =======
+=======
+      %category-hover {
+        cursor: pointer;
+        background: $primary;
+        color: #ffffff;
+        transition: 300ms;
+      }
+
+>>>>>>> 0167a2a... Optimize hover code
       .category {
         border-right: 1px solid $form-border-color;
         display: flex;
@@ -212,11 +222,15 @@ header {
 
         &:hover,
         &:hover i:first-child {
+<<<<<<< HEAD
           cursor: pointer;
           background: $primary;
           color: white;
           transition: 300ms;
 >>>>>>> c59203e... Add hover on select category
+=======
+          @extend %category-hover;
+>>>>>>> 0167a2a... Optimize hover code
         }
 >>>>>>> 108ba0b... Add transitions on hovers, transitions variables and file transitionsPlaceholder
   
@@ -376,10 +390,7 @@ header {
             position: relative;
 
             &:hover {
-              cursor: pointer;
-              background: $primary;
-              color: white;
-              transition: 300ms;
+              @extend %category-hover;
             }
 
             .category-second {
