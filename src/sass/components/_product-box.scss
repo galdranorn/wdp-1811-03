@@ -144,4 +144,21 @@
       }
     }
   }
+
+  &:hover {
+    .photo {
+      .buttons {
+        visibility: visible;
+      }
+    }
+
+    .actions {
+      .price {
+        .btn-main-small {
+          background-color: $primary;
+        }
+      }  
+    }
+  }
+
 }
