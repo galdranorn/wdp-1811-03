@@ -85,7 +85,12 @@ typings/
 dist/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #history
 .history/
 =======
 >>>>>>> e844e7e... WIP
+=======
+#history
+.history/
+>>>>>>> 5d670e2... Remove history folder from repo
