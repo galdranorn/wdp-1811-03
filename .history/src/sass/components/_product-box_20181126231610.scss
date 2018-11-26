@@ -1,17 +1,4 @@
 .product-box {
-<<<<<<< HEAD
-  background-color: #ffffff;
-  border: 1px solid #e1e1e1;
-  margin-bottom: 2rem;
-<<<<<<< HEAD
-
-  &:hover {
-    .photo {
-      .buttons {
-        visibility: visible;
-      }
-    }
-=======
     background-color: #ffffff;
     border: 1px solid #e1e1e1;
     margin-bottom: 2rem;
@@ -23,7 +10,6 @@
                 opacity: 1;
             }
         }
->>>>>>> 108ba0b... Add transitions on hovers, transitions variables and file transitionsPlaceholder
 
         .actions {
             .price {
@@ -32,56 +18,6 @@
                 }
             }
         }
-<<<<<<< HEAD
-      } 
-      
-    }
-        
-  }
-  
-
-  .photo {
-=======
-  
-  .bg1 {
-    background-image: url('../images/new-furniture/1.jpg');
-  }
-  .bg2 {
-    background-image: url('../images/new-furniture/2.jpeg');
-  }
-  .bg3 {
-    background-image: url('../images/new-furniture/3.jpg');
-  }
-  .bg4 {
-    background-image: url('../images/new-furniture/4.jpeg');
-  }
-  .bg5 {
-    background-image: url('../images/new-furniture/5.jpeg');
-  }
-  .bg6 {
-    background-image: url('../images/new-furniture/6.jpg');
-  }
-  .bg7 {
-    background-image: url('../images/new-furniture/7.jpg');
-  }
-  .bg8 {
-    background-image: url('../images/new-furniture/8.jpeg');
-  }
-  
-<<<<<<< HEAD
-  [class^="photo"] {
->>>>>>> 3c44388... New furniture and latest blog imgs added
-=======
-  .photo {
->>>>>>> 17fb77e... Come back to photo and cover class; background in separate class bgX/covX
-    position: relative;
-    padding: 80% 10px 0 10px;
-    background: {
-      size: cover;
-      position: center;
-      repeat: no-repeat;
-=======
->>>>>>> 108ba0b... Add transitions on hovers, transitions variables and file transitionsPlaceholder
     }
 
     .bg1 {
@@ -142,7 +78,7 @@
             display: flex;
             justify-content: space-between;
             opacity: 0;
-            @extend %transitionsAll;
+
         }
     }
 

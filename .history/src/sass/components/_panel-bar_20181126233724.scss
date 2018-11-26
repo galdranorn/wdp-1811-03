@@ -23,22 +23,16 @@
       bottom: -4px;
       left: 0;
       width: 45px;
-      border-bottom: 4px solid $primary;  
+      border-bottom: 4px solid $primary;
     }
   }
 
   .menu {
     text-align: center;
-
     ul {
       margin: 0;
       padding: 0;
       list-style: none;
-<<<<<<< HEAD
-
-=======
-      justify-content: center;
->>>>>>> 2d380ac... Add tabs and carousel on products list
       li {
         display: inline-block;
         margin: 0 0.5rem;
@@ -50,8 +44,8 @@
           text-decoration: none;
           font-size: 18px;
           display: block;
-          @extend %transitionsAll;
-
+          
+          
           &.active,
           &:hover {
             &::before {
@@ -86,7 +80,6 @@
           height: 13px;
           border-radius: 6px;
           background-color: #e1e1e1;
-          @extend %transitionsAll;
 
           &.active,
           &:hover {
@@ -95,25 +88,5 @@
         }
       }
     }
-  }
-  
-}
-
-@media(max-width: 768px) {
-
-  .panel-bar {
-    margin-bottom: 55px;
-
-    .menu {
-
-      ul {
-        display: flex;
-        left: -170px;
-        top: 10px;
-        position: absolute;
-        z-index: 999;
-      }
-    }
-
   }
 }

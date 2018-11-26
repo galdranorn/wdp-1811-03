@@ -4,6 +4,7 @@
    
   &-link {
     color: $text-color;
+<<<<<<< HEAD
 =======
   
   .cov1 {
@@ -24,6 +25,9 @@
       position: center;
     }
 >>>>>>> 3c44388... New furniture and latest blog imgs added
+=======
+    @extend %transitionsAll;
+>>>>>>> 108ba0b... Add transitions on hovers, transitions variables and file transitionsPlaceholder
 
     &:hover {
       text-decoration: none;
@@ -77,6 +81,7 @@
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 1px;
+        @extend %transitionsAll;
       }
   
       p {

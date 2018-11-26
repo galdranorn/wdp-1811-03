@@ -8,6 +8,7 @@
   .heading {
     position: relative;
 
+    
     h3 {
       color: $primary;
       text-transform: uppercase;
@@ -29,16 +30,10 @@
 
   .menu {
     text-align: center;
-
     ul {
       margin: 0;
       padding: 0;
       list-style: none;
-<<<<<<< HEAD
-
-=======
-      justify-content: center;
->>>>>>> 2d380ac... Add tabs and carousel on products list
       li {
         display: inline-block;
         margin: 0 0.5rem;
@@ -95,25 +90,5 @@
         }
       }
     }
-  }
-  
-}
-
-@media(max-width: 768px) {
-
-  .panel-bar {
-    margin-bottom: 55px;
-
-    .menu {
-
-      ul {
-        display: flex;
-        left: -170px;
-        top: 10px;
-        position: absolute;
-        z-index: 999;
-      }
-    }
-
   }
 }
