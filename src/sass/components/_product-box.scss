@@ -137,6 +137,7 @@
             color: #ffffff;
             padding: 30px 15px 5px 15px;
         }
+<<<<<<< HEAD
 
         .buttons {
             display: flex;
@@ -147,6 +148,9 @@
 <<<<<<< HEAD
 =======
         &.active {
+=======
+        &.active, &.permanent {
+>>>>>>> 589eb78... Fix showing avg value when not hover even if marked
           @extend .fas;
           color: $primary;
         }
