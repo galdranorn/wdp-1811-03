@@ -13,6 +13,7 @@
         font-size: 24px;
         font-weight: 500;
         padding: 7px 30px;
+<<<<<<< HEAD
         position: relative;
         .dots {
           position: absolute;
@@ -33,6 +34,9 @@
             background: $primary;
           }
         }
+=======
+        span {}
+>>>>>>> 7a058c4... Work on features section markup/styles
       }
       .photo {
         background-image: url('../images/features/armchair.jpg');
@@ -61,6 +65,7 @@
               color: white;
               text-transform: uppercase;
               padding-top: 15px;
+<<<<<<< HEAD
               p {
                 margin-bottom: 5px;
               }
@@ -69,6 +74,13 @@
                 line-height: 1.5rem;
               }
               .text {
+=======
+              h1 {
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+              }
+              h2 {
+>>>>>>> 7a058c4... Work on features section markup/styles
                 font-size: 0.9rem;
                 line-height: 8px;
               }
@@ -83,6 +95,7 @@
           }
         }
       }
+<<<<<<< HEAD
       .bottom-bar {
         .price {
           display: flex;
@@ -132,6 +145,9 @@
           }
         }
       }
+=======
+      .bottom-bar {}
+>>>>>>> 7a058c4... Work on features section markup/styles
     }
     .furniture {
       max-height: 490px;
@@ -139,6 +155,7 @@
       background-size: cover;
       background-position: center;
       padding: 0;
+<<<<<<< HEAD
       &:hover {
         .price {
           .btn-main-small {
@@ -146,6 +163,8 @@
           }
         }  
       }
+=======
+>>>>>>> 7a058c4... Work on features section markup/styles
       .content {
         color: white;
         text-transform: uppercase;
@@ -168,10 +187,13 @@
           background: white;
           line-height: 30px;
           color: $footer-claim-bg;
+<<<<<<< HEAD
           transition: .2s;
           &:hover {
             background: $footer-claim-bg;
           }
+=======
+>>>>>>> 7a058c4... Work on features section markup/styles
         }
       }
       .buttons {
