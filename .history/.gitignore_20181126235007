@@ -77,15 +77,10 @@ typings/
 .serverless
 
 # dist
-./dist/
+dist/
 
 # End of https://www.gitignore.io/api/node
 
 #dist folder
 dist/
 
-<<<<<<< HEAD
-#history
-.history/
-=======
->>>>>>> e844e7e... WIP
