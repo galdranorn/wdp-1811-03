@@ -17,15 +17,24 @@
 //TINY-SLIDER - NEW FURNITURE
 
 (function(){
+<<<<<<< HEAD
     var productsSlider = tns({
         container: '.products-slider',
         items: 1,
         slideBy: 'page',
+=======
+
+    var productsSlider = tns({
+        container: '.products-slider',
+        items: 1,
+        slideBy: 1,
+>>>>>>> a6c0b3d... Add tiny slider to furniture section
         mouseDrag: true,
         controls: false,
         navContainer: '.products-carousel-indicators',
         responsive: {
             768: {
+<<<<<<< HEAD
                 items: 2
             },
             992: {
@@ -98,3 +107,19 @@ function unsetStarsClass(limit, elem, className) {
         }
 }
 >>>>>>> dde045a... Change stars selecting mechanism from class to indexOf, move code to App.js, change section var name
+=======
+            items: 2,
+            slideBy: 2,
+            },
+            992: {
+            items: 3,
+            slideBy: 3,
+            },
+            1200: {
+            items: 4,
+            slideBy: 4,
+            }
+          }
+    });
+})();  
+>>>>>>> a6c0b3d... Add tiny slider to furniture section
