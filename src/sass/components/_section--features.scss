@@ -71,6 +71,7 @@
               color: white;
               text-transform: uppercase;
               padding-top: 15px;
+<<<<<<< HEAD
               p {
                 margin-bottom: 5px;
               }
@@ -91,9 +92,18 @@
 >>>>>>> 06f29c7... Fix problems after rebase usage
                 font-size: 0.9rem;
                 line-height: 8px;
+=======
+              font-size: 1.5rem;
+              line-height: 1.5rem;
+                span {
+                  margin-top: 5px;
+                  display: block;
+                  font-size: 0.9rem;
+                  line-height: 8px;
+                }
+>>>>>>> f485c83... Simplify .counter structure - from p.class to span
               }
             }
-          }
           .btn-main {
             margin-top: 100px;
             text-transform: uppercase;
