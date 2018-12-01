@@ -18,12 +18,15 @@
 
 (function(){
 <<<<<<< HEAD
+<<<<<<< HEAD
     var productsSlider = tns({
         container: '.products-slider',
         items: 1,
         slideBy: 'page',
 =======
 
+=======
+>>>>>>> 75c2155... Review typos
     var productsSlider = tns({
         container: '.products-slider',
         items: 1,
