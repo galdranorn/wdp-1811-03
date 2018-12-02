@@ -48,6 +48,7 @@
         responsive: {
             768: {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 items: 2
             },
             992: {
@@ -123,14 +124,18 @@ function unsetStarsClass(limit, elem, className) {
 =======
             items: 2,
             slideBy: 2,
+=======
+                items: 2,
+                slideBy: 2,
+>>>>>>> 7aa36f2... Fix typos
             },
             992: {
-            items: 3,
-            slideBy: 3,
+                items: 3,
+                slideBy: 3,
             },
             1200: {
-            items: 4,
-            slideBy: 4,
+                items: 4,
+                slideBy: 4,
             }
           }
     });
