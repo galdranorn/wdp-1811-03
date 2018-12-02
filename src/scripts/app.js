@@ -19,6 +19,7 @@
 (function(){
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     var productsSlider = tns({
         container: '.products-slider',
         items: 1,
@@ -27,6 +28,15 @@
 
 =======
 >>>>>>> 75c2155... Review typos
+=======
+    var indicators = document.querySelectorAll('.carousel-indicator');
+    indicators.forEach(function(item){
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+        });
+    });
+
+>>>>>>> 01089b9... Add tiny slider to section feedback
     var productsSlider = tns({
         container: '.products-slider',
         items: 1,
@@ -124,5 +134,19 @@ function unsetStarsClass(limit, elem, className) {
             }
           }
     });
+<<<<<<< HEAD
 })();  
 >>>>>>> a6c0b3d... Add tiny slider to furniture section
+=======
+
+    var feedbackSlider = tns({
+        container: '.feedback-wrapper',
+        autoWidth: true,
+        mouseDrag: true,
+        autoplay: true,
+        autoplayButtonOutput: false,
+        controls: false,
+        navContainer: '.feedback-indicators',
+    });
+})();  
+>>>>>>> 01089b9... Add tiny slider to section feedback
