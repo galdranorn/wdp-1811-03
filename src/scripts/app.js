@@ -448,6 +448,7 @@ function unsetStarsClass(limit, elem, className) {
         controls: false,
         navContainer: '.feedback-indicators',
     });
+<<<<<<< HEAD
 
     const brandsSlider = tns({
         container: '.brands-slider',
@@ -511,5 +512,19 @@ $(".carousel").swipe({
   
   });
 >>>>>>> 506a01d... Add swipe and remove hover on tablets/mobiles
+<<<<<<< HEAD
 >>>>>>> Add swipe and remove hover on tablets/mobiles
+<<<<<<< HEAD
 >>>>>>> 8f592ed... Add swipe and remove hover on tablets/mobiles
+=======
+=======
+=======
+})();  
+
+//tooltips
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+>>>>>>> 6284277... WIP
+>>>>>>> WIP
+>>>>>>> ccc7343... WIP
