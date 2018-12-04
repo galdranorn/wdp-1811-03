@@ -154,6 +154,7 @@ function unsetStarsClass(limit, elem, className) {
         navContainer: '.feedback-indicators',
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 })();  
 >>>>>>> 01089b9... Add tiny slider to section feedback
 =======
@@ -206,3 +207,11 @@ $(".carousel").swipe({
   
   });
 >>>>>>> 506a01d... Add swipe and remove hover on tablets/mobiles
+=======
+})();  
+
+//tooltips
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+>>>>>>> 6284277... WIP
