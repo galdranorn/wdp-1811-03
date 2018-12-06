@@ -210,14 +210,18 @@
         }
       }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7a058c4... Work on features section markup/styles
 =======
 >>>>>>> fc37d0f... Finish features section
+=======
+      .contentBox {
+        padding-top: 145px;
+>>>>>>> bd87315... Solve problem with right slider styles
       .content {
         color: white;
         text-transform: uppercase;
-        margin-top: 145px;
         padding: 55px 0 45px 0;
         background: rgba(42, 42, 42, 0.8);
         position: relative;
@@ -251,6 +255,7 @@
 >>>>>>> 9befad1... Add dots
         }
       }
+    }
       .buttons {
         position: relative;
         background: $footer-claim-bg;
@@ -265,6 +270,7 @@
         }
       }
     }
+    
   }
 }
 
