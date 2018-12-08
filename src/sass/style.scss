@@ -22,7 +22,7 @@
 @import "components/panel-bar";
 @import "components/post-box";
 @import "components/product-box";
-@import "components/gallery";
+
 
 @import "components/section--features";
 <<<<<<< HEAD
@@ -37,7 +37,11 @@
 >>>>>>> f564125... Add section feedback
 =======
 @import "components/section--brands";
+<<<<<<< HEAD
 >>>>>>> 3d3cd9d... Add html+css for brands section
+=======
+@import "components/section--gallery";
+>>>>>>> 4d47d1a... Change color on content-h5 in carousel - section  gallery
 
 body {
   font-family: 'Poppins', sans-serif;
