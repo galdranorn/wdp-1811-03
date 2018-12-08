@@ -153,5 +153,24 @@ function unsetStarsClass(limit, elem, className) {
         controls: false,
         navContainer: '.feedback-indicators',
     });
+<<<<<<< HEAD
 })();  
 >>>>>>> 01089b9... Add tiny slider to section feedback
+=======
+
+    const brandsSlider = tns({
+        container: '.brands-slider',
+        loop: true,
+        items: 6,
+        slideBy: 'page',
+        nav: false,    
+        autoplay: true,
+        speed: 400,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        lazyload: true,
+        controlsContainer: ".brands-carousel-controls",
+      });
+
+})();  
+>>>>>>> a6f9e02... Add slider to brands section
