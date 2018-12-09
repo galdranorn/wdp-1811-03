@@ -23,6 +23,7 @@ $ npm install
 
 4. Run current, test version of site in your browser and enable watching of site's development files.
 
+<<<<<<< HEAD
 ```sh
 $ npm run watch
 ```
@@ -32,6 +33,14 @@ $ npm run watch
 ```sh
 $ npm run prewatch
 ```
+=======
+1. `npm run prewatch` - run this scripts to get stable release of project.
+- it copies all necessary files from your current working directory to /dist catalogue, where you'll find ready-to-be-published version of site. 
+
+2. `npm run watch` - run this scripts during development:
+- it's watching for changes in .scss files and converts it into .css file. 
+- it runs current, test version of site in your browser via BrowserSync.
+>>>>>>> 2962e73... Add tasks documentation
 
 # Preview
 
