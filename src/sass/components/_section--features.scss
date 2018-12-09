@@ -200,9 +200,11 @@
       .fur3 {
         background: url('../images/features/decorations.jpeg');
       }
-      .carousel-inner {
+      .carousel {
+        &-inner {
         height: 100%;
-        .carousel-item {
+        }
+        &-item {
           height: 100%;
           margin-top: 0;
           background-size: cover;
@@ -218,6 +220,7 @@
 =======
       .contentBox {
         padding-top: 145px;
+<<<<<<< HEAD
 >>>>>>> bd87315... Solve problem with right slider styles
       .content {
         color: white;
@@ -247,6 +250,33 @@
           transition: .2s;
           &:hover {
             background: $footer-claim-bg;
+=======
+        .content {
+          color: white;
+          text-transform: uppercase;
+          padding: 55px 0 45px 0;
+          background: rgba(42, 42, 42, 0.8);
+          position: relative;
+          h1, h2 {
+            font-weight: 400;
+          }
+          h1 span {
+              font-weight: 600;
+          }
+          .btn-main {
+            position: absolute;
+            bottom: -20px;
+            left: 40%;
+            border-radius: 3px;
+            border: 1px solid white;
+            background: white;
+            line-height: 30px;
+            color: $footer-claim-bg;
+            transition: .2s;
+            &:hover {
+              background: $footer-claim-bg;
+            }
+>>>>>>> 8d3fa66... Add nesting in .scss file and fix spaces
           }
 <<<<<<< HEAD
 =======
@@ -255,7 +285,6 @@
 >>>>>>> 9befad1... Add dots
         }
       }
-    }
       .buttons {
         position: relative;
         background: $footer-claim-bg;
@@ -270,7 +299,6 @@
         }
       }
     }
-    
   }
 }
 
