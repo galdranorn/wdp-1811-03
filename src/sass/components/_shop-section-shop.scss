@@ -26,8 +26,11 @@
                     margin: 0 15px;
                 }
 
-                &-breadcrumb {
+                .breadcrumb {
                     color: $page-header-font;
+                    margin: 0;
+                    padding: 0;
+                    background: none;
 
                     &:hover {
                         color: $primary;
