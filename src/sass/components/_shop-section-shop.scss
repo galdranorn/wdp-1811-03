@@ -23,15 +23,22 @@
     background: none;
     margin-right: 40px;
 
-    &-item {
+    &-item.active {
+        color: $page-header-font;
+        font-weight: 600;
+    }
+
+    &-item + &-item::before {
+        content: '>';
+        color: $page-header-font;
+        font-weight: 400;
+        top: 2px;
+        position: relative;
+    }
+
+    &-link {
         color: $page-header-font;
         font-size: 13px;
-        $breadcrumb-divider: quote(">");
-
-        &.active {
-            color: $page-header-font;
-            font-weight: 400;
-        }
 
         &:hover {
             color: $primary;
