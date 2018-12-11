@@ -188,6 +188,21 @@ function unsetStarsClass(limit, elem, className) {
 
 })();  
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> a6f9e02... Add slider to brands section
 =======
 >>>>>>> fa3d1ff... Add RWD on different widths
+=======
+
+
+// Mobile swipe for features carousel - task WDP181103-23
+$(".carousel").swipe({
+
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) { 
+      if (direction == 'left') $(this).carousel('next');
+      if (direction == 'right') $(this).carousel('prev');
+    },
+    allowPageScroll:"vertical"
+  
+  });
+>>>>>>> 506a01d... Add swipe and remove hover on tablets/mobiles
