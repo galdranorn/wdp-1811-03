@@ -757,6 +757,15 @@
 }
 =======
 }
+@media(max-width:1200px) {
+  .section--features .features .hot-deals .photo .hover {
+    opacity: 1;
+    .btn-main {
+      position: relative;
+      top: 150px;
+    }
+  }
+}
 
 >>>>>>> fa3d1ff... Add RWD on different widths
 >>>>>>> Add RWD on different widths

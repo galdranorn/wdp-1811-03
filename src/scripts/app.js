@@ -489,6 +489,27 @@ function unsetStarsClass(limit, elem, className) {
 })();  
 =======
 })();  
+<<<<<<< HEAD
 >>>>>>> fa3d1ff... Add RWD on different widths
+<<<<<<< HEAD
 >>>>>>> Add RWD on different widths
+<<<<<<< HEAD
 >>>>>>> be7eabd... Add RWD on different widths
+=======
+=======
+=======
+
+
+// Mobile swipe for features carousel - task WDP181103-23
+$(".carousel").swipe({
+
+    swipe: function(event, direction, distance, duration, fingerCount, fingerData) { 
+      if (direction == 'left') $(this).carousel('next');
+      if (direction == 'right') $(this).carousel('prev');
+    },
+    allowPageScroll:"vertical"
+  
+  });
+>>>>>>> 506a01d... Add swipe and remove hover on tablets/mobiles
+>>>>>>> Add swipe and remove hover on tablets/mobiles
+>>>>>>> 8f592ed... Add swipe and remove hover on tablets/mobiles
