@@ -26,7 +26,6 @@
             width: 15px;
             height: 15px;
             background: $text-inactive-color;
-            display: inline-block;
             margin: 4px;
             border-radius: 50%;
             &:hover {
@@ -264,9 +263,11 @@
               font-weight: 600;
           }
           .btn-main {
+            width: 180px;
             position: absolute;
             bottom: -20px;
-            left: 40%;
+            left: 50%;
+            transform: translateX(-90px);
             border-radius: 3px;
             border: 1px solid white;
             background: white;
@@ -307,3 +308,4 @@
     padding: 1rem 0 3rem 0;
   }
 }
+
