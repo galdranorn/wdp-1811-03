@@ -545,7 +545,6 @@
             width: 15px;
             height: 15px;
             background: $text-inactive-color;
-            display: inline-block;
             margin: 4px;
             border-radius: 50%;
             &:hover {
@@ -680,6 +679,7 @@
         h1 span {
             font-weight: 600;
         }
+<<<<<<< HEAD
         .btn-main {
           position: absolute;
           bottom: -20px;
@@ -692,6 +692,38 @@
           transition: .2s;
           &:hover {
             background: $footer-claim-bg;
+=======
+      }
+      .contentBox {
+        padding-top: 145px;
+        .content {
+          color: white;
+          text-transform: uppercase;
+          padding: 55px 0 45px 0;
+          background: rgba(42, 42, 42, 0.8);
+          position: relative;
+          h1, h2 {
+            font-weight: 400;
+          }
+          h1 span {
+              font-weight: 600;
+          }
+          .btn-main {
+            width: 180px;
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-90px);
+            border-radius: 3px;
+            border: 1px solid white;
+            background: white;
+            line-height: 30px;
+            color: $footer-claim-bg;
+            transition: .2s;
+            &:hover {
+              background: $footer-claim-bg;
+            }
+>>>>>>> Add RWD on different widths
           }
         }
       }
@@ -716,6 +748,15 @@
   .section--features {
     padding: 1rem 0 3rem 0;
   }
+<<<<<<< HEAD
 >>>>>>> 34d29d3... Add left slider (hot deals) with autoplay
+<<<<<<< HEAD
 }
 >>>>>>> Add left slider (hot deals) with autoplay
+=======
+}
+=======
+}
+
+>>>>>>> fa3d1ff... Add RWD on different widths
+>>>>>>> Add RWD on different widths

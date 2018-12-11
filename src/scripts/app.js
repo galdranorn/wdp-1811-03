@@ -477,7 +477,18 @@ function unsetStarsClass(limit, elem, className) {
         }
       });
 
+<<<<<<< HEAD
 >>>>>>> a6f9e02... Add slider to brands section
+<<<<<<< HEAD
 })();  
 >>>>>>> Add slider to brands section
+<<<<<<< HEAD
 >>>>>>> 54bdfbf... Add slider to brands section
+=======
+=======
+})();  
+=======
+})();  
+>>>>>>> fa3d1ff... Add RWD on different widths
+>>>>>>> Add RWD on different widths
+>>>>>>> be7eabd... Add RWD on different widths
