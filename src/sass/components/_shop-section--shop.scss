@@ -1,0 +1,169 @@
+<<<<<<< HEAD
+.heading-back {
+    background: $page-header-back;
+    height: 340px;
+    position: absolute;
+    z-index: -999;
+}
+
+.section--shop {
+
+    .shop {
+
+        &-heading {
+            padding: 35px 0;
+            color: $page-header-font;
+            position: relative;
+
+            &-h1 {
+                text-transform: uppercase;
+                margin: 0;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    background: none;
+    margin-right: 40px;
+
+    &-item {
+
+        &.active {
+            color: $page-header-font;
+            font-weight: 600;
+        }
+
+        & + &::before {
+            content: '>';
+            color: $page-header-font;
+            font-weight: 400;
+            top: 2px;
+            position: relative;
+        }
+    }
+
+    &-link {
+        color: $page-header-font;
+        font-size: 13px;
+
+        &:hover {
+            color: $primary;
+            text-decoration: none;
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    .section--shop {
+        .shop {
+    
+            &-heading {
+                padding: 35px 15px;
+            }
+        }
+    }    
+}
+
+@media(max-width: 576px) {
+    .section--shop {
+        .shop {
+    
+            &-heading {
+    
+                .breadcrumb {
+                    position: absolute;
+                    left: 0;
+                    bottom: 9px;
+                }
+            }
+        }
+    }
+=======
+.heading-back {
+    background: $page-header-back;
+    height: 340px;
+    position: absolute;
+    z-index: -999;
+}
+
+.section--shop {
+
+    .shop {
+
+        &-heading {
+            padding: 35px 0;
+            color: $page-header-font;
+            position: relative;
+
+            &-h1 {
+                text-transform: uppercase;
+                margin: 0;
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+.breadcrumb {
+    margin: 0;
+    padding: 0;
+    background: none;
+    margin-right: 40px;
+
+    &-item.active {
+        color: $page-header-font;
+        font-weight: 600;
+    }
+
+    &-item + &-item::before {
+        content: '>';
+        color: $page-header-font;
+        font-weight: 400;
+        top: 2px;
+        position: relative;
+    }
+
+    &-link {
+        color: $page-header-font;
+        font-size: 13px;
+
+        &:hover {
+            color: $primary;
+            text-decoration: none;
+        }
+    }
+}
+
+@media(min-width: 1200px) {
+    .section--shop {
+        .shop {
+    
+            &-heading {
+                padding: 35px 15px;
+            }
+        }
+    }    
+}
+
+@media(max-width: 576px) {
+    .section--shop {
+        .shop {
+    
+            &-heading {
+                padding-left: 15px; 
+                margin-bottom: 15px;
+                
+                .breadcrumb {
+                    position: absolute;
+                    left: 15px;
+                    bottom: 9px;
+                }
+            }
+        }
+    }
+>>>>>>> WIP
+}

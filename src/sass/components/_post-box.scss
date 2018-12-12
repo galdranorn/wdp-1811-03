@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .post-box {
   margin-bottom: 2rem;
 <<<<<<< HEAD
@@ -99,3 +100,92 @@
   }
   
 }
+=======
+.post-box {
+  margin-bottom: 2rem;
+  
+  &-link {
+    color: $text-color;
+    @extend %transitionsAll;
+
+    &:hover {
+      text-decoration: none;
+      color: $text-color;
+
+      .post-info {
+        &-header {
+          color: $primary;
+        }
+        .more {
+          .btn-main {
+            background-color: $primary;
+          }
+        }
+      }
+    }
+
+  .cov1 {
+    background-image: url('../images/latest-blog/1.jpeg');
+  }
+  .cov2 {
+    background-image: url('../images/latest-blog/2.jpeg');
+  }
+  .cov3 {
+    background-image: url('../images/latest-blog/3.jpeg');
+  }
+    
+    .cover {
+      padding: 70% 25px 0 25px;
+      background: {
+        color: #f4f5f7;
+        size: cover;
+        position: center;
+      }
+  
+      .details {
+        padding: 15px 20px;
+        display: flex;
+        background-color: #ffffff;
+        font-size: 14px;
+  
+        & > * {
+          flex: 1 1 auto;
+        }
+  
+        .date {
+          text-align: left;
+        }
+  
+        .comments {
+          text-align: right;
+        }
+      }
+    }
+  
+    .post-info {
+      padding: 25px;
+  
+      h5 {
+        color: $text-color;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        @extend %transitionsAll;
+      }
+  
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        color: rgb(103,103,103);
+        text-align: justify;
+      }
+  
+      .more {
+        text-align: center;
+        padding-top: 30px;
+      }
+    }
+  }
+  
+}
+>>>>>>> 05ec64b... WIP
