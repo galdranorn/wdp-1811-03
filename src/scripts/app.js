@@ -132,4 +132,29 @@ function unsetStarsClass(limit, elem, className) {
         }
       });
 
+      const postsSlider = tns({
+        container: '.posts-slider',
+        loop: true,
+        gutter: 5,
+        items: 1,
+        slideBy: 'page',
+        controls: false,   
+        autoplay: true,
+        speed: 400,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        lazyload: true,
+        navContainer: ".posts-carousel-controls",
+        responsive: {
+            640: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            995: {
+                items: 3,
+            }
+        }
+      });
 })();  
