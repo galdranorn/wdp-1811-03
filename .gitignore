@@ -184,5 +184,12 @@ typings/
 dist/
 
 #history
+<<<<<<< HEAD
 .history/
 >>>>>>> 05ec64b... WIP
+=======
+.history/
+
+#DS_store files
+.DS_Store
+>>>>>>> e5e6607... Fix Sass
