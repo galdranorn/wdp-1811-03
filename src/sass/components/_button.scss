@@ -37,12 +37,29 @@
     @extend %transitionsAll;
     background-color: #2a2a2a;
     color: #ffffff;
+    text-decoration: none;
   }
   &.active {
     background-color: $primary;
     border-color: $primary;
     color: #ffffff;
   }
+}
+
+.btn-nav {
+  background: none;
+
+  &:hover,
+  &:active {
+    color: #ffffff;
+    background: $primary;
+    border-color: $primary;
+  }
+}
+
+.btn-social {
+  color: $social-button-text;
+  font-size: 13px;
 }
 
 .btn-green {

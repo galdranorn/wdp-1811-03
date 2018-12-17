@@ -1,7 +1,13 @@
+.heading-back {
+    background: $page-header-back;
+    height: 340px;
+    position: absolute;
+    z-index: -999;
+}
+
 .section--shop {
+
     .shop {
-        background: $page-header-back;
-        height: 340px; 
 
         &-heading {
             padding: 35px 0;
@@ -23,20 +29,17 @@
     background: none;
     margin-right: 40px;
 
-    &-item {
+    &-item.active {
+        color: $page-header-font;
+        font-weight: 600;
+    }
 
-        &.active {
-            color: $page-header-font;
-            font-weight: 600;
-        }
-
-        & + &::before {
-            content: '>';
-            color: $page-header-font;
-            font-weight: 400;
-            top: 2px;
-            position: relative;
-        }
+    &-item + &-item::before {
+        content: '>';
+        color: $page-header-font;
+        font-weight: 400;
+        top: 2px;
+        position: relative;
     }
 
     &-link {
@@ -66,10 +69,12 @@
         .shop {
     
             &-heading {
-    
+                padding-left: 15px; 
+                margin-bottom: 15px;
+                
                 .breadcrumb {
                     position: absolute;
-                    left: 0;
+                    left: 15px;
                     bottom: 9px;
                 }
             }

@@ -111,19 +111,122 @@
       </div>
     </div>
   </header>
+  <div class="container-fluid heading-back"></div>
   <div class="section--shop">
-    <div class="container-fluid shop">
-      <div class="container">
-        <div class="row">
-          <div class="col shop-heading d-flex justify-content-between align-items-center">
-            <h1 class="shop-heading-h1">furniture</h1>
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb d-inline-flex">
-                <li class="breadcrumb-item"><a class="breadcrumb-link" href="#">Home</a></li>
-                <li class="breadcrumb-item"><a class="breadcrumb-link" href="#">Furniture</a></li>
-                <li class="breadcrumb-item active"><a class="breadcrumb-link" href="#">Chair</a></li>
-              </ol>
-            </nav>
+    <div class="container shop">
+      <div class="row">
+        <div class="col shop-heading d-flex justify-content-between align-items-center">
+          <h1 class="shop-heading-h1">furniture</h1>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb d-inline-flex">
+              <li class="breadcrumb-item"><a class="breadcrumb-link" href="#">Home</a></li>
+              <li class="breadcrumb-item"><a class="breadcrumb-link" href="#">Furniture</a></li>
+              <li class="breadcrumb-item active"><a class="breadcrumb-link" href="#">Chair</a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section--product">
+    <div class="container product-wrapper">
+      <div class="row">
+        <div class="col-md-5 col-12 product-gallery">
+          <div class="product-featured tab-content" id="productFeatured">
+              <div class="product-featured tab-pane fade show active" id="featured" role="tabpanel"
+                aria-labelledby="featured-tab">
+                  <div id="productFeaturedCarousel" class="product-featured-carousel carousel slide" data-ride="carousel">
+                      <div class="product-featured-carousel-inner carousel-inner">
+                          <div class="product-featured-carousel-inner-item product-item-bg1 carousel-item active">
+                          </div>
+                          <div class="product-featured-carousel-inner-item carousel-item product-item-bg2">
+                          </div>
+                          <div class="product-featured-carousel-inner-item carousel-item product-item-bg3">
+                          </div>
+                          <div class="product-featured-carousel-inner-item carousel-item product-item-bg4">
+                          </div>
+                      </div>
+                      <div class="product-featured-carousel-controlContainer">
+                          <a class="product-featured-carousel-controlContainer-control carousel-control-prev btn-outline btn-nav" href="#productFeaturedCarousel"
+                          role="button" data-slide="prev">
+                              <i class="fas fa-angle-left"></i>
+                              <span class="sr-only">Previous</span>
+                          </a>
+                          <div class="product-featured-carousel-controlContainer-indicatorsContainer ">
+                            <ol class="product-featured-carousel-controlContainer-indicatorsContainer-indicators carousel-indicators">
+                                <li data-target="#productFeaturedCarousel" data-slide-to="0" class="product-featured-carousel-controlContainer-indicatorsContainer-indicators-item product-item-bg1 active"></li>
+                                <li data-target="#productFeaturedCarousel" data-slide-to="1" class="product-featured-carousel-controlContainer-indicatorsContainer-indicators-item product-item-bg2"></li>
+                                <li data-target="#productFeaturedCarousel" data-slide-to="2" class="product-featured-carousel-controlContainer-indicatorsContainer-indicators-item product-item-bg3"></li>
+                                <li data-target="#productFeaturedCarousel" data-slide-to="3" class="product-featured-carousel-controlContainer-indicatorsContainer-indicators-item product-item-bg4"></li>
+                            </ol>
+                          </div>
+                          <a class="product-featured-carousel-controlContainer-control carousel-control-next btn-outline btn-nav" href="#productFeaturedCarousel"
+                          role="button" data-slide="next">
+                              <i class="fas fa-angle-right"></i>
+                              <span class="sr-only">Next</span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-7 col-12 d-flex flex-column product-overview">
+          <div class="product-overview-name product-overview-section d-flex flex-column">
+            <div class="product-overview-nav">
+              <a href="#" class="btn-outline btn-nav nav-arrow"><i class="fas fa-angle-left"></i></a>
+              <a href="#" class="btn-outline btn-nav nav-arrow"><i class="fas fa-angle-right"></i></a>
+            </div>
+            <h1 class="product-overview-name-header">Sunbaby Magic Bear Chair</h1>
+            <div class="product-overview-name-review d-flex flex-row align-items-center">
+                <div class="stars">
+                  <a class="star full" href="#"></a>
+                  <a class="star full" href="#"></a>
+                  <a class="star" href="#"></a>
+                  <a class="star" href="#"></a>
+                  <a class="star" href="#"></a>
+                </div>
+                <p class="review-number">(0 reviews)</p>
+                <a href="#" class="add-review">Add Your Review</a>
+            </div>
+          </div>
+          <div class="product-overview-price d-flex flex-row product-overview-section align-items-center">
+            <div class="product-overview-price-old">$350.00</div>
+            <div class="btn-main product-overview-price-curr">$250.00</div>
+          </div>
+          <div class="product-overview-buttons product-overview-section">
+              <div class="buttons">
+                <a href="#" class="btn-main-small add-to-cart"><i class="fa fa-shopping-basket"></i> ADD TO CART</a>
+                <a href="#" class="btn-outline btn-nav"><i class="far fa-heart"></i></a>
+                <a href="#" class="btn-outline btn-nav"><i class="fas fa-exchange-alt"></i></a>
+                <a href="#" class="btn-outline btn-nav"><i class="far fa-envelope"></i></a>
+              </div>
+              <div class="quantity d-flex flex-row align-items-center">
+                <p class="quantity-label">Quantity:</p>
+                <a href="#" class="btn-outline quantity-number">2</a>
+                <a href="#" class="btn-outline quantity-less">-</a>
+                <a href="#" class="btn-outline quantity-more">+</a>
+              </div>
+          </div>
+          <div class="product-overview-quick product-overview-section">
+            <h5 class="header">Quick Overview</h5>
+            <p class="overview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquam vero magnam minima officiis maxime eligendi?</p>
+          </div>
+          <div class="product-overview-extra product-overview-section d-flex">
+            <div class="labels d-flex flex-column">
+              <h5 class="label">Availability:</h5>
+              <h5 class="label">Category:</h5>
+            </div>
+            <div class="options d-flex flex-column">
+              <h5 class="option">In Stock</h5>
+              <h5 class="option">Furniture</h5>
+            </div>
+          </div>
+          <div class="product-overview-social product-overview-section">
+            <a href="#" class="btn-outline btn-nav btn-social btn-social-facebook"><i class="fab fa-facebook-f"></i>Share</a>
+            <a href="#" class="btn-outline btn-nav btn-social btn-social-gplus"><i class="fab fa-google"></i>Google+</a>
+            <a href="#" class="btn-outline btn-nav btn-social btn-social-twitter"><i class="fab fa-twitter"></i>Tweet</a>
+            <a href="#" class="btn-outline btn-nav btn-social btn-social-pinterest"><i class="fab fa-pinterest-p"></i>Pinterest</a>
+            <a href="#" class="btn-outline btn-nav btn-social btn-social-linkedin"><i class="fab fa-linkedin-in"></i>Linkedin</a>
           </div>
         </div>
       </div>
