@@ -107,14 +107,12 @@ function unsetStarsClass(limit, elem, className) {
     const brandsSlider = tns({
         container: '.brands-slider',
         loop: true,
-        items: 1,
         slideBy: 'page',
         nav: false,    
         autoplay: true,
         speed: 400,
         autoplayButtonOutput: false,
         mouseDrag: true,
-        lazyload: true,
         controlsContainer: ".brands-carousel-controls",
         responsive: {
             450: {
