@@ -142,6 +142,7 @@ function unsetStarsClass(limit, elem, className) {
         autoplayButtonOutput: false,
         mouseDrag: true,
         lazyload: true,
+        autoplayHoverPause: true,
         navContainer: ".posts-carousel-controls",
         responsive: {
             640: {
