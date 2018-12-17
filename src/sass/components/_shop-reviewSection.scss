@@ -14,6 +14,10 @@
                     border-left: 1px solid $gallery-tabs-border;
                     border-bottom: 1px solid $gallery-tabs-border;
 
+                    @media(min-width: 380px) and (max-width: 1200px) {
+                        max-width: 25%;
+                    }
+
                     &:last-child {
                         border-right: 1px solid $gallery-tabs-border;
                         
@@ -32,6 +36,11 @@
                         border: none;
                         text-align: center;
 
+                        @media(min-width: 380px) and (max-width: 1200px) {
+                            padding-left: 0.3rem;
+                            padding-right: 0.3rem;
+                        }
+
                         &:hover {
                             color: $primary;
                         }
@@ -43,6 +52,12 @@
                         color: $primary;        
                     }
                 }
+            }
+
+            %text {
+                font-size: 14px;
+                line-height: 25px;
+                color: $review-tabs-text;
             }
 
             &-tabContent {
@@ -60,9 +75,91 @@
                     }
 
                     &-text {
-                        font-size: 14px;
-                        line-height: 25px;
-                        color: $review-tabs-text;
+                        @extend %text;
+                    }
+
+                    &-form {
+
+                        &-textAdd {
+                            font-size: 15px;
+                            font-weight: 500;
+                            line-height: 24px;
+                        }
+
+                        &-text {
+                            @extend %text;
+                        }
+
+                        &-rating {
+                            align-items: center;
+
+                            &-starsContainer {
+                                padding: 0 20px;
+                                align-content: center;
+    
+                                &-star {
+                                    text-decoration: none;
+                                    color: rgb(42, 42, 42);
+                                    @extend .far;
+                                    @extend .fa-star;
+                                    &.full {
+                                        @extend .fas;
+                                    }
+                                    &.active, &.permanent {
+                                        @extend .fas;
+                                        color: $primary;
+                                    }
+                                }
+                            }
+                        }
+
+                        &-textAreaContainer {
+                            padding: 10px 0;
+                            
+                            &-label {
+                                display: block;
+                                @extend %text;
+                            }
+
+                            &-textArea {
+                                width: 100%;
+                                min-height: 100px;
+                            }
+                        }
+
+                        &-personalData {
+                            padding: 10px 0;
+                            
+                            &-input {
+                                margin-right: 20px;
+                                padding: 10px;
+                                width: 41.75%; //446
+                                height: 50px;
+                                @extend %text;
+
+                                @media(min-width: 380px) and (max-width: 1200px) {
+                                    width: 100%;
+                                    margin: 0;
+                                    margin-bottom: 20px;
+                                }
+                            }
+
+                            &-btn {
+                                width: 136px;
+                                @extend %text;
+                                font-weight: 600;
+                                text-transform: uppercase;
+                                background-color: $text-color;
+                                border: none;
+                                color: $white !important;
+
+                                @media(min-width: 380px) and (max-width: 1200px) {
+                                    width: 100%;
+                                    margin: 0;
+                                    height: 50px;
+                                }
+                            }
+                        }
                     }
                 }
             }
