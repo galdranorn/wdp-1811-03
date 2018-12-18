@@ -107,14 +107,12 @@ function unsetStarsClass(limit, elem, className) {
     const brandsSlider = tns({
         container: '.brands-slider',
         loop: true,
-        items: 1,
         slideBy: 'page',
         nav: false,    
         autoplay: true,
         speed: 400,
         autoplayButtonOutput: false,
         mouseDrag: true,
-        lazyload: true,
         controlsContainer: ".brands-carousel-controls",
         responsive: {
             450: {
@@ -132,6 +130,32 @@ function unsetStarsClass(limit, elem, className) {
         }
       });
 
+      const postsSlider = tns({
+        container: '.posts-slider',
+        loop: true,
+        gutter: 5,
+        items: 1,
+        slideBy: 'page',
+        controls: false,   
+        autoplay: true,
+        speed: 400,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        lazyload: true,
+        autoplayHoverPause: true,
+        navContainer: ".posts-carousel-controls",
+        responsive: {
+            640: {
+                items: 1,
+            },
+            768: {
+                items: 2,
+            },
+            995: {
+                items: 3,
+            }
+        }
+      });
 })();  
 
 
