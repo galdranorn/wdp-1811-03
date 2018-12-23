@@ -1,0 +1,8 @@
+.nav-link {
+    @media(min-width: 380px) {
+        padding: 0.5rem 0.2rem;
+    }
+    @media(min-width: 1200px) {
+        padding: 0.5rem 1rem;
+    }
+}

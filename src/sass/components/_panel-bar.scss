@@ -82,21 +82,20 @@
       li {
         display: inline-block;
         margin-left: 0.5rem;
-
-        a {
-          display: block;
           width: 13px;
           height: 13px;
           border-radius: 6px;
           background-color: #e1e1e1;
           @extend %transitionsAll;
 
-          &.active,
           &:hover {
             background-color: $primary;
           }
-        }
+        
       }
+    }
+    ul .tns-nav-active {
+      background: $primary;
     }
   }
   
