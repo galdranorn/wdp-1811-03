@@ -1,13 +1,23 @@
 # About
+Group project to practice HTML, CSS, Bootstrap, JavaScript, Git workflow and Jira. Front-end of furniture shop created from .svg files. You can see live [here](https://romantic-volhard-ce5aef.netlify.com/#).
 
-This is an online store app.
+# Technologies and tools used
+- HTML
+- CSS (Sass)
+- .SVG edit (Gimp)
+- JavaScript
+- [Bootstrap](https://github.com/twbs/bootstrap) - CSS and JavaScript library for grids and menu,
+- [Tiny-Slider](https://github.com/ganlanyuan/tiny-slider) - vanilla JS slider plugin,
+- [Autoprefixer](https://www.npmjs.com/package/autoprefixer) - plugin to parse CSS and add vendor prefixes to CSS rules,
+- [Node-Sass](https://github.com/sass/node-sass) - library which let us use Sass in the project,
+- [BrowserSync](https://github.com/BrowserSync/browser-sync) - to keep browser(s) in sync for live preview when editing code.
+
 
 # Instruction
 
 In order to start the project:
 
 1. Clone the remote repository to your development environment
-
 ```sh
 $ git clone https://github.com/Varenthein/wdp-1811-03.git
 ```
@@ -15,20 +25,17 @@ $ git clone https://github.com/Varenthein/wdp-1811-03.git
 2. Use npm to run all tasks. In order to run npm install Node.js - you can download it's latest version [from here](https://nodejs.org/en/). Node.js version 10.14.2 or newer is recommended. 
 
 3. Install depedencies
-
 ```sh
 $ cd wdp-1811-03
 $ npm install
 ```
 
 4. Run current, test version of site in your browser and enable watching of site's development files.
-
 ```sh
 $ npm run watch
 ```
 
 5. Get site's production release. It will be located in **dist** directory.
-
 ```sh
 $ npm run prewatch
 ```
@@ -43,10 +50,6 @@ $ npm run prewatch
 - in case of any changes, it compiles your .scss files to .css file.
 - in case of any changes in .html or .js files, it updates linked files in **dist** directory.
 - when you'll add any images or fonts to your current working directory, it copies it to **dist** directory.
-
-# Preview
-
-You can see a preview of the project here - [https://romantic-volhard-ce5aef.netlify.com/#](https://romantic-volhard-ce5aef.netlify.com/#)
 
 
 # Convention and good practices 
